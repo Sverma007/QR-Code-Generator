@@ -23,7 +23,7 @@ button1=Button(master,text="Generate QR Code",command=gen,padx=20,pady=5)
 button2=Button(master,text="Clear",command=delete1,padx=50,pady=5)
 button3=Button(master,text="Exit",command=master.quit,padx=58,pady=5)
 label4=Label(master,text="Software Designed By Suneet Verma",font=("roboto",8,"italic"))
-canvas = Canvas(master, width = 300, height = 300)
+canvas = Canvas(master, width = 600, height = 600)
 
 
 
